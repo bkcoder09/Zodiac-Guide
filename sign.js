@@ -1,0 +1,49 @@
+var dates = "";
+var element = "";
+var colors = "";
+var numbers = "";
+var gem = "";
+var day = "";
+var planet = "";
+var enemies = "";
+var opposite = "";
+var likes = "";
+var dislikes = "";
+var strengths = "";
+var weakness = "";
+var img = "";
+var pic = "";
+
+function load(){
+    dates = localStorage.getItem("dates");
+    element = localStorage.getItem("element");
+    colors = localStorage.getItem("colors");
+    numbers = localStorage.getItem("numbers");
+    gem = localStorage.getItem("gem");
+    day = localStorage.getItem("day");
+    planets = localStorage.getItem("planets");
+    enemies = localStorage.getItem("enemies");
+    opposite = localStorage.getItem("opposite");
+    likes = localStorage.getItem("likes");
+    dislikes = localStorage.getItem("dislikes");
+    strengths = localStorage.getItem("strengths");
+    weakness = localStorage.getItem("weakness");
+    img = localStorage.getItem("img");
+    pic = localStorage.getItem("pic");
+
+    document.getElementById("dates").innerHTML = "Dates: "+dates;
+    document.getElementById("element").innerHTML = "Element: "+element;
+    document.getElementById("colors").innerHTML = "Colors: "+colors;
+    document.getElementById("numbers").innerHTML = "Numbers: "+numbers;
+    document.getElementById("gem").innerHTML = "Gem: "+gem;
+    document.getElementById("day").innerHTML = "Day: "+day;
+    document.getElementById("planets").innerHTML = "Planets: "+planets;
+    document.getElementById("enemies").innerHTML = "Enemies: "+enemies;
+    document.getElementById("opposite").innerHTML = "Opposite: "+opposite;
+    document.getElementById("likes").innerHTML = "Likes: "+likes;
+    document.getElementById("dislikes").innerHTML = "Dislikes: "+dislikes;
+    document.getElementById("strengths").innerHTML = "Strengths: "+strengths;
+    document.getElementById("weakness").innerHTML = "Weakness: "+weakness;
+    document.getElementById("img").src = img;
+    document.getElementById("pic").src = pic;
+}

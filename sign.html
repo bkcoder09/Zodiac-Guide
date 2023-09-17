@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title> Zodiac Guide </title>
+    <script src="sign.js"></script>
+</head>
+<body onload="load()">
+    <div class="topnav">
+        <li>
+            <a href="index.html"> Home </a>
+            <a href="index.html#signs"> Signs </a>
+            <a href="index.html#compat"> Compatibility </a>
+            <a href="index.html#about"> About Us </a>
+            <a href="src.html"> Sources </a>
+        </li>
+    </div>
+    <img id="img" src="">
+    <br>
+        <p id="dates"> Dates: </p>
+        <p id="element"> Element: </p>
+        <p id="colors"> Colors: </p>
+        <p id="numbers"> Number: </p>
+        <p id="gem"> Gem: </p>
+        <p id="day"> Day: </p>
+        <p id="planets"> Planets: </p>
+        <p id="enemies"> Enemies: </p>
+        <p id="opposite"> Opposite: </p>
+        <p id="likes"> Likes: </p>
+        <p id="dislikes"> Dislikes: </p>
+        <p id="strengths"> Strengths: </p>
+        <p id="weakness"> Weakness: </p>
+
+        <img id="pic" src="">
+</body>
+</html>
+
+<style>
+    body{
+        background-color: black;
+    }
+
+    .topnav{
+        background-color: black;
+        overflow: hidden;
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+
+    .topnav a{
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover{
+        background-color: white;
+        color:black;
+    }
+
+    .topnav a.active{
+        background-color: black;
+        color: white;
+    }
+
+    p{
+        font-size: 18px;
+        padding: 6px;
+        color: white;
+        margin-left: 40px;
+    }
+
+    #dates{
+        margin-top: 60px;
+    }
+
+    #img{
+        width: 100%;
+    }
+
+    #pic{
+        margin-left:600px;
+        margin-top: -800px;
+    }
+</style>

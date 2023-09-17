@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title> Zodiac Guide </title>
+    <script src="sign.js"></script>
+</head>
+<body onload="load()">
+    <div class="topnav">
+        <li>
+            <a href="index.html"> Home </a>
+            <a href="index.html#signs"> Signs </a>
+            <a href="index.html#compat"> Compatibility </a>
+            <a href="index.html#about"> About Us </a>
+            <a href="src.html"> Sources </a>
+        </li>
+    </div>
+    <img src="Sources.png">
+    <center>
+        <p> These are the wesbites that were used to get information. You can click on them and it'll take you to the website: </p>
+        <div id="srcs">
+            <a id="src" href="https://knowthezodiac.com/"> KnowTheZodiac</a>
+            <a id="src" href="https://www.zodiacsign.com/"> zodiacsign</a>
+            <a id="src" href="https://www.englishclub.com/efl/category/podcasts/zodiac/"> EnglishClub</a>
+            <a id="src" href="https://www.herzindagi.com/society-culture/zodiac-signs-and-their-enemies-article-185635"> Her zindagi</a>
+            <a id="src" href="https://www.eastrohelp.com/blog/#google_vignette"> eAstroHelp</a>
+            <a id="src" href="https://www.w3schools.com/"> w3Schools</a>
+    </div>
+    </center>
+</body>
+</html>
+
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    .topnav{
+        background-color: black;
+        overflow: hidden;
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+
+    .topnav a{
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover{
+        background-color: white;
+        color:black;
+    }
+
+    .topnav a.active{
+        background-color: black;
+        color: white;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #src{
+        color: white;
+        font-size: 22px;
+        padding: 20px;
+        text-decoration: underline;
+    }
+
+    #srcs{
+        margin-top: 70px;
+    }
+
+    p{
+        margin-top: 90px;
+        font-size: 22px;
+    }
+</style>

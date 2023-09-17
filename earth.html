@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="earth.js"> </script>
+    <title> Zodiac Guide </title>
+</head>
+
+<body>
+    <div class="topnav">
+        <li>
+            <a href="index.html"> Home </a>
+            <a href="index.html#signs"> Signs </a>
+            <a href="index.html#compat"> Compatibility </a>
+            <a href="index.html#about"> About Us </a>
+            <a href="src.html"> Sources </a>
+        </li>
+    </div>
+    <center>
+        <img src="Taurus 2.png">
+        <img src="Virgo 2.png">
+        <img src="Capricorn 2.png">
+        <br>
+        <h3> Click to see the compatibility in more depth: </h3>
+        <button class="btn" id="one" onclick="taurus()"> Taurus </button>
+        <button class="btn" id="two" onclick="virgo()"> Virgo </button>
+        <button class="btn" id="three" onclick="capricorn()"> Capricorn </button>
+        <p> Compatible With: Earth signs are compatible with other earth signs and air signs. </p>
+    </center>
+</body>
+</html>
+
+<style>
+    body{
+        background-color: rgb(52, 78, 65);
+    }
+
+    .topnav{
+        background-color: black;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .topnav a{
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover{
+        background-color: white;
+        color:black;
+    }
+
+    .topnav a.active{
+        background-color: black;
+        color: white;
+    }
+
+    img{
+        margin-top: 140px;
+        padding: 50px;
+        width:22%;
+        border-radius: 150px;
+    }
+
+    .btn{
+        font-size: 18px;
+        color: white;
+        background-color: black;
+        margin-top: 325px;
+    }
+
+    #two{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    p{
+        color: white;
+        margin-top: 115px;
+        font-size: 18px;
+    }
+
+    h3{
+        color: white;
+        margin-top: -350px;
+    }
+</style>

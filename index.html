@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="main.js"> </script>
+    <title> Zodiac Guide </title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#home"> Home </a>
+        <a href="#signs"> Signs </a>
+        <a href="#compat"> Compatibility </a>
+        <a href="#about"> About Us </a>
+        <a href="src.html"> Sources </a>
+    </div>
+    <center>
+        <div id="home">
+            <img id="zg" src="Zodiac Guide.jpg">
+        </div>
+        <div id="signs">
+            <br>
+            <h2> Choose Your Sign: </h2>
+            <br>
+            <br>
+            <br>
+            <button class="btn"> <img id="img" onclick="aqua()" src="Aquarius.png"> </button>
+            <button class="btn"> <img id="img" onclick="fish()" src="Pisces.png"> </button>
+            <button class="btn"> <img id="img" onclick="ram()" src="Aries.png"> </button>
+            <button class="btn"> <img id="img" onclick="taur()" src="Taurus.png"> </button>
+            <br>
+            <br>
+            <br>
+                <button class="btn"> <img id="img" onclick="two()" src="Gemini.png"> </button>
+                <button class="btn"> <img id="img" onclick="disease()" src="Cancer.png"> </button>
+                <button class="btn"> <img id="img" onclick="lion()" src="Leo.png"> </button>
+                <button class="btn"> <img id="img" onclick="virgo()" src="Virgo.png"> </button>
+            <br>
+            <br>
+            <br>
+                <button class="btn"> <img id="img" onclick="scale()" src="Libra.png"> </button>
+                <button class="btn"> <img id="img" onclick="wata()" src="Scorpio.png"> </button>
+                <button class="btn"> <img id="sag" onclick="sag()" src="Sagittarius.png"> </button>
+                <button class="btn"> <img id="sag" onclick="cap()" src="Capricorn.png"> </button>
+            <br>
+            <br>
+        </div>
+        <div id="compat">
+            <br>
+            <img id="sig" src="Ze Pic da 5th.png">
+            <br>
+            <br>
+            <h2> Choose what kind of sign you have: </h2>
+            <br>
+            <br>
+            <br>
+            <button class="btn" onclick="water()"> <img id="btn" src="avatar water.png"> </button>
+            <button class="btn" onclick="fire()"> <img id="btn" src="avatar fire.png"> </button>
+            <button class="btn" onclick="earth()"> <img id="btn" src="avatar earth.png"> </button>
+            <button class="btn" onclick="air()"> <img id="btn" src="avatar air.png"> </button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="about">
+            <br>
+            <img src="About us.png">
+            <br>
+            <br>
+            <img id="pfp" src="pfp.jpg"> <h2 id="me"> Bella Kohli </h2>
+            <p id="thing1"> <img id="snap" src="snapchat.jpg"> @bellaluvsdog </p>
+            <p id="thing2"> <img id="snap" src="mail.png"> @kohlibella8@gmail.com </p>
+            <p id="desc"> Bella Kohli is an middle school coder. She was taught coding from WhiteHat Jr (Which is now a part of BYJU'S Future School) and knows JavaScript, ml5.js, Python, HTML, CSS, React Native, and Blockly. She codes from home for her classes and for practice. </p>
+        </div>
+    </center>
+</body>
+
+<style>
+    body{
+        background-color: black;
+    }
+
+    .topnav{
+        background-color: black;
+        overflow: hidden;
+        position: fixed;
+
+        width: 100%;
+    }
+
+    .topnav a{
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover{
+        background-color: white;
+        color:black;
+    }
+
+    .topnav a.active{
+        background-color: black;
+        color: white;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .btn{
+        width: 20%;
+        background-color: black;
+    }
+
+    h2{
+        font-weight: bold;
+        color: white;
+    }
+
+    #sag{
+        width:58.5%;
+    }
+
+    #sig{
+        width:100%;
+    }
+
+    #btn{
+        width: 130%;
+    }
+
+    #pfp{
+        width:15%;
+        border-radius:100px;
+        float: left;
+    }
+
+    #snap{
+        width: 5%;
+        border-radius: 10px;
+    }
+
+    #thing1{
+        color: rgb(209, 167, 178);
+        font-size: 15px;
+        float: left;
+        margin-right: 720px;
+        margin-top: -140px;
+    }
+
+    #thing2{
+        color: rgb(209, 167, 178);
+        font-size: 15px;
+        float: left;
+        margin-right: 650px;
+        margin-top: -100px;
+    }
+
+    #me{
+        float: left;
+        margin-left: 50px;
+    }
+
+    #desc{
+        color: white;
+        margin-top: 30px;
+        margin-left: 460px;
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    h3{
+        color: white;
+        margin-top: -370px;
+    }
+</style>
